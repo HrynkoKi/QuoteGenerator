@@ -98,6 +98,26 @@ body {
 .twitter-button:hover {
     color: #38a1f3;
 }
+
+/* Loader Element */
+.loader {
+    border: 1.6rem solid #b8b3b3;
+    border-top: 1.6rem solid rgb(56, 54, 54);
+    border-radius: 50%;
+    width: 16rem;
+    height: 16rem;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 /* Media Query */
 @media screen and (max-width: 1000px) {
     .quote-container {
